@@ -9,7 +9,7 @@ from elevenlabs import VoiceSettings
 
 config = dotenv_values('.env')
 
-ELEVENLABS_API_KEY = 'sk_579f3271c586e5f8062548e1808f681921edc4b67182e2d3'
+ELEVENLABS_API_KEY = 'config(ELEVENLABS_API_KEY)'
 
 def translator(audio_file):
     
